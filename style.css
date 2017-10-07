@@ -68,6 +68,34 @@ body {
 	padding-bottom: 20px;
 }
 
+
+.footer{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	display: flex;
+	align-content: space-around;
+
+}
+.footer-section{
+	border: 4px solid white;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer-section p{
+	text-align: center;
+}
+.footer-section img{
+	width: 25px;
+	height: auto;
+}
+
+
+.designer{
+	text-align: center;
+}
 /*Background Pattern : https://www.toptal.com/designers/subtlepatterns/thumbnail-view/*/
 /*Ribbon. Thanks to http://livetools.uiparade.com/ribbon-builder.html#*/
 
