@@ -48,15 +48,24 @@ body {
 
 .pic{
 	border: 6px solid white;
+
+}
+.pic img{
+	height: 250px;
 }
 .body-home .left{
 	margin-right: 10px;
+	padding-top: 20px;
 }
+
 .body-home .mid{
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
 	align-content: space-between;
+}
+.body-home .mid .col{
+	flex: 1;
 }
 .body-home .mid .pic{
 	margin-top: 5px;
