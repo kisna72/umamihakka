@@ -40,7 +40,18 @@ body {
 	color: white;
 }
 
-
+.content{
+	margin-top: 60px;
+}
+.text-center{
+	text-align: center;
+}
+.padding-40{
+	padding-bottom: 40px;
+}
+.padding-top-60{
+	padding-top: 60px;
+}
 /*Home Page Specific css.*/
 .body-home{
 	margin-top: 60px;
