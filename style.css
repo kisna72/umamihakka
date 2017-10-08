@@ -30,6 +30,12 @@ body {
 .right-header{
 	order: 3;
 }
+.description{
+	display: inherit;
+}
+.phone{
+	display: none;
+}
 
 @media (max-width:768px){
 	.left-header{
@@ -44,6 +50,12 @@ body {
 	.right-header{
 		order: 3;
 		width: 100%;
+	}
+	.description{
+		display: none;
+	}
+	.phone{
+		display: inherit;
 	}
 }
 
