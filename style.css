@@ -6,6 +6,10 @@ body {
 .header{
 	margin-top: 40px;
 	margin-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
 }
 
 .side-header{
@@ -15,10 +19,34 @@ body {
 	padding-top: 20px;
 	text-align: center;
 }
-
+.left-header{
+	order: 1;
+	margin-bottom: 10px;
+}
 .main-header{
 	text-align: center;
+	order: 2;
 }
+.right-header{
+	order: 3;
+}
+
+@media (max-width:768px){
+	.left-header{
+		order:2;
+		width: 100%;
+	}
+	.main-header{
+		order: 1;
+		width: 100%;
+		flex-grow: 1;
+	}
+	.right-header{
+		order: 3;
+		width: 100%;
+	}
+}
+
 
 .menu{
 
@@ -32,6 +60,7 @@ body {
 	padding: 10px;
 	background-color: antiquewhite;
 	color: black; /*Instead of the regular blue for links. */
+	margin-bottom: 10px;
 
 }
 
