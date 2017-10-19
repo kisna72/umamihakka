@@ -1,6 +1,11 @@
 
 body {
 	background-color: #ffe7dc; /* #f9d195; */
+	font-family:'Raleway', sans-serif;
+}
+.brand{
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-weight: 200;
 }
 
 .header{
