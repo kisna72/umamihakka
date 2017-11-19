@@ -69,6 +69,16 @@ body {
 	.phone{
 		display: inherit;
 	}
+	.menu-img{
+		display: none;
+	}
+	.menu-img-sm{
+		border: 2px solid white;
+		margin-bottom: 10px;
+		width: 100%;
+		display: block!important;
+		visibility: visible;
+	}
 }
 
 
@@ -182,5 +192,10 @@ body {
 	border: 2px solid white;
 	margin-bottom: 10px;
 }
+.menu-img-sm{
+	display: none;
+}
+
+
 /*Background Pattern : https://www.toptal.com/designers/subtlepatterns/thumbnail-view/*/
 /*Ribbon. Thanks to http://livetools.uiparade.com/ribbon-builder.html#*/
