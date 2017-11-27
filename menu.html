@@ -14,25 +14,30 @@
 
   </head>
   <body>
-    <div class="container">
 
-      <div class="row header">
-        <div class="col-md-4 col-sm-12 header-item side-header left-header">
+        <div class="container">
+<!--       <div class="row">
+        <div>menu</div>
+      </div> -->
+
+      <div class="row header visible" id="full_menu">
+        <div class="col-md-4 col-sm-12 header-item side-header left-header fafaee_background">
           <span class="description">Best Hakka Chinese in Toronto</span>
           
-          <a class="phone btn btn-outline-success" href="tel:+1-416-551-8026">Call 416-551-8026 </a>
+          <a class="phone btn btn-outline-success fafaee_background" href="tel:+1-416-551-8026">Call 416-551-8026 </a>
           Open 11AM - 10PM , 7 days a week
         </div>
-        <div class="col-md-4 col-sm-12 main-header">
+        <div class="col-md-4 col-sm-12 main-header fafaee_background">
         <h1 class="brand">UMAMI <br> HAKKA </h1>
           <!-- <div class="ribbon"><div class="ribbon-stitches-top2"></div><strong class="ribbon-content"><h1>Umami Hakka</h1></strong><div class="ribbon-stitches-bottom"></div></div> -->
         </div>
-        <div class="col-md-4 col-sm-12 side-header right-header">
+        <div class="col-md-4 col-sm-12 side-header right-header fafaee_background">
           359 Albion Road, Toronto, <br>Ontario, m9w 2p1
         </div>
       </div>
 
-      <div class="row menu" id="menu">
+
+<!--       <div class="row menu" id="menu">
         <a href="index.html" class="col menu-item">
           HOME
         </a>
@@ -42,7 +47,33 @@
         <a href="contact.html#menu" class="col menu-item">
           CONTACT
         </a>
-      </div>
+      </div> -->
+    </div> <!-- CLose container for menu and header. -->
+
+
+    <div id="shrunk_menu" class="invisible"> <!-- Start SHrunk Menu -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand brand" href="#">Umami Hakka</a>
+<!--         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="menu.html">Menu<span class="sr-only">(current)</span></a>
+            </li>
+
+        </ul>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        </div>
+      </nav>
+    </div> <!-- End Shrunk Menu -->
+
+
+    <div class="container">
 
       <div class="row content" id="content">
 
@@ -84,21 +115,21 @@
 
       <div class="row footer">
       <hr>
-        <div class="col footer-section">
+        <div class="col footer-section fafaee_background">
         Like and Follow us on Facebook
         <br>
-        <a target="_blank" href="https://www.facebook.com">
+        <a target="_blank" href="https://www.facebook.com/Umami-Hakka-530302173984789/">
         <img src="fb-logo.png"/>
         </a>
         
         </div>
 
-        <div class="col footer-section">
+        <div class="col footer-section fafaee_background">
         Call to Order. <br>
         <a class="btn btn-outline-success" href="tel:+1-416-551-8026">Call 416-551-8026 </a>
         </div>
 
-        <div class="col footer-section">
+        <div class="col footer-section fafaee_background">
         Come Visit Us. <br>
         <a target="_blank" class="btn btn-outline-success" href="https://www.google.com/maps/place/359+Albion+Rd,+Etobicoke,+ON+M9W+2P1,+Canada/@43.7248658,-79.5530313,17z/data=!4m13!1m7!3m6!1s0x882b3085912a1c5b:0x8c5e25cb5c19d7be!2s359+Albion+Rd,+Etobicoke,+ON+M9W+2P1,+Canada!3b1!8m2!3d43.7248619!4d-79.5508426!3m4!1s0x882b3085912a1c5b:0x8c5e25cb5c19d7be!8m2!3d43.7248619!4d-79.5508426">View in Map </a>
         
@@ -108,7 +139,7 @@
       </div>
 
       <div class="row designer">
-      <div class="col"> Website Design by NolaApps Inc
+      <div class="col"> Website Design by <!-- <a href="http://www.nolaapps.com" target="_blank"> --> NolaApps Inc <!-- </a> -->
       </div>
       </div>
 
@@ -123,6 +154,8 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:200" rel="stylesheet">
+    <script src="umami.js"></script>
+
 
 
 

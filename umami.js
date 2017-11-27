@@ -1,7 +1,7 @@
 $(window).scroll(function() {
   var showing_shrunk = false;
 
-  if ($(document).scrollTop() > 50) {
+  if ($(document).scrollTop() > 40) {
     //$('nav').addClass('shrink');
     if (!showing_shrunk){
 	    console.log("add class to shrink the thing.");
