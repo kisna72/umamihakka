@@ -138,6 +138,12 @@ body {
 	width: 100%;
 	height: auto;
 }
+
+.foodpic{
+	width: 300px;
+	height: auto;
+}
+
 .body-home .left{
 	margin-right: 10px;
 	padding-top: 20px;
@@ -239,3 +245,4 @@ body {
     margin-right: 35%;
     margin-top: 30px;
 }
+
