@@ -1,17 +1,5 @@
 
-/* XS styling */
-@media (max-width: 480px) {
-  .container {
-    width: inherit;
-  }
-}
 
-/* SM styling */
-@media (min-width: 480px) and (max-width: 768px) {
-  .container {
-    width: inherit;
-  }
-}
 
 body {
 	background-color: #ffe7dc; /* #f9d195; */
@@ -186,6 +174,7 @@ body {
 	border: 2px solid #ff0000;
 	margin-right: 10px;
 	margin-left: 10px;
+	margin-bottom: 10px;
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -220,3 +209,33 @@ body {
 
 /*Background Pattern : https://www.toptal.com/designers/subtlepatterns/thumbnail-view/*/
 /*Ribbon. Thanks to http://livetools.uiparade.com/ribbon-builder.html#*/
+
+
+/*Carousel*/
+#carouselExampleIndicators .carousel-caption {
+    color: white;
+    right: 58%;
+    text-align: center;
+    max-width: 500px;
+    left: auto;
+    /*top: auto;*/
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial;
+
+	background-color: rgba(16, 16, 16, 0.66);
+
+	/*padding-top: 30px;*/
+	/*padding-bottom:30px;*/
+	padding-left: 20px;
+	padding-right: 20px;
+
+
+}
+
+.horizontal_red_line{
+	border: 2px solid red;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 30px;
+}
