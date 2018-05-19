@@ -77,9 +77,10 @@ body {
 		display: inherit;
 	}
 	.menu-img{
-		display: none;
+		/* display: none; */
+
 	}
-	.menu-img-sm{
+	.menu-img{
 		border: 2px solid white;
 		margin-bottom: 10px;
 		width: 100%;
@@ -207,6 +208,7 @@ body {
 .menu-img{
 	border: 2px solid white;
 	margin-bottom: 10px;
+	width: 100%;
 }
 .menu-img-sm{
 	display: none;
