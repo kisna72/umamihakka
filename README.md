@@ -1,4 +1,4 @@
-Website for Umami Hakka http://www.umamihakka.com/
+Website for Umami Hakka http://www.umamihakka.com/ (Restaurant is closed)
 - Designed + Code by yours truly 
 - Very lightweight website
 - Mobile friendly
